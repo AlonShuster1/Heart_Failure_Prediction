@@ -19,8 +19,6 @@ The goal is to preprocess data effectively, understand its patterns, and evaluat
 - Python
 - Pandas, NumPy
 - Scikit-learn
-- Matplotlib, Seaborn
-- TargetEncoder (category_encoders)
 
 ---
 
@@ -28,7 +26,7 @@ The goal is to preprocess data effectively, understand its patterns, and evaluat
 
 1. **Load the dataset** (heart disease data)
 2. **Analyze statistics** of features to assess correlation and distribution
-3. **Transform categorical features** using Target Encoding instead of One-Hot Encoding
+3. **Transform categorical features** using One-Hot Encoding
 4. **Visualize distributions** to understand how features relate to the target
 5. **Train classification models** (e.g., Logistic Regression, Decision Tree)
 6. **Evaluate performance** using metrics like accuracy, recall, precision, F1-score
@@ -41,11 +39,5 @@ Includes charts and histograms that help interpret patterns such as:
 - Age vs. heart disease rate
 - Cholesterol levels distribution
 - Effect of different categorical variables on target outcome
-
----
-
-## 🧠 Machine Learning Models
-
-The notebook experiments with various models and compares their performance. Metrics like ROC AUC and classification reports are used for evaluation.
 
 ---
